@@ -199,7 +199,7 @@ export default {
 
   computed: {
     whatsappLink() {
-      const message = encodeURIComponent('Hi! I want to buy Divine pets from Roblox Grow a Garden. What\'s available?');
+      const message = encodeURIComponent('Hai! Saya ingin membeli hewan peliharaan Divine dari Roblox Grow a Garden. Apa saja yang tersedia?');
       return `https://wa.me/${this.whatsappNumber}?text=${message}`;
     },
 
